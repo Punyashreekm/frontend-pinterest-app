@@ -1,7 +1,8 @@
 import "./homepage.css";
+import Gallery from "../../componets/gallery/gallery";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return <Gallery />;
 };
 
 export default Homepage;
