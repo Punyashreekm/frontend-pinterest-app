@@ -12,7 +12,7 @@ const galleryItem = ({ item }) => {
           <img src="/general/share.svg" alt="" />
         </button>
         <button>
-          <img src="/general/share.svg" alt="" />
+          <img src="/general/more.svg" alt="" />
         </button>
       </div>
     </div>
