@@ -12,6 +12,7 @@ const CreatePage = () => {
         <div className="upload">
           <div className="uploadTitle">
             <Image path="/general/upload.svg" alt="" />
+            <span>Chose a file</span>
           </div>
           <div className="uploadInfo">
             We recommended using high quality. jpg files less than 20 files less than 200 MB.
@@ -24,7 +25,13 @@ const CreatePage = () => {
           </div>
           <div className="createFormItem">
             <label htmlFor="Description">Description</label>
-            <input type="text" placeholder="Add a detailed Description" name="Description" id="Description" />
+            <textarea
+              rows={6}
+              type="text"
+              placeholder="Add a detailed Description"
+              name="Description"
+              id="Description"
+            />
           </div>
           <div className="createFormItem">
             <label htmlFor="Link">Link</label>
