@@ -21,7 +21,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/:username" element={<ProfilePage />} />
           <Route path="/search" element={<SearchPage />} />
         </Route>
-        <Route path="auth" element={AuthPage} />
+        <Route path="auth" element={<AuthPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
